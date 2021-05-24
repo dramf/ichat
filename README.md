@@ -1,2 +1,2 @@
-# ichat
-Demo Messager in Cupertino style for iOS.
+# iChat
+Demo Messenger in Cupertino style for iOS, works on Flutter and FireBase.
