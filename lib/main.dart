@@ -1,7 +1,6 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/cupertino.dart';
-
-import 'screens/chat_screen.dart';
+import 'package:ichat_app/screens/auth_screen.dart';
 
 void main() => runApp(App());
 
@@ -18,7 +17,8 @@ class App extends StatelessWidget {
           theme: const CupertinoThemeData(brightness: Brightness.light),
           home: snapshot.connectionState != ConnectionState.done
               ? CupertinoActivityIndicator()
-              : ChatScreen(),
+              : AuthScreen(),
+//              : ChatScreen(),
         );
       },
     );
